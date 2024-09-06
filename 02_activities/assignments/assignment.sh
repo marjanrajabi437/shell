@@ -23,7 +23,7 @@ set -x
     
 # 4. Append the words "Hello world" to dir2/file3
 
-    echo "hello world" > dir2/file3.txt
+    echo "hello world" >> dir2/file3.txt
     
 # 5. Verify that file3 contains the words "hello world" by printing the contents of the file in the terminal
 
